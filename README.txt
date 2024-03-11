@@ -56,3 +56,10 @@ kubectl get pods,svc
 ```
 
 since svc is short for service
+
+To get URL of service for testing:
+
+```bash
+minikube service voting-service --url
+minikube service result-service --url
+```
